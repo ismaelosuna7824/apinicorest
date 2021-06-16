@@ -1,0 +1,32 @@
+{
+  "name": "diplomado",
+  "version": "1.0.0",
+  "description": "proyecto diplomado",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc --project ./",
+    "start:dev": "nodemon src/express.ts",
+    "start:prod": "node dist/express.js"
+    
+  },
+  "author": "Jorge Ortez <jorge_ortez@outlook.com>",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.0",
+    "envalid": "^6.0.2",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.8",
+    "tsc-watch": "^4.2.9",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.0",
+    "@types/express": "^4.17.11",
+    "@types/mongodb": "^3.6.16",
+    "@types/uuid": "^8.3.0",
+    "nodemon": "^2.0.7",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.3.2"
+  }
+}
