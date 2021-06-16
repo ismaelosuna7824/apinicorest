@@ -6,7 +6,7 @@
   "scripts": {
     "build": "tsc --project ./",
     "start:dev": "nodemon src/express.ts",
-    "start:prod": "node dist/express.js"
+    "start": "node dist/express.js"
     
   },
   "author": "Jorge Ortez <jorge_ortez@outlook.com>",
